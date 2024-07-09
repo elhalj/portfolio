@@ -1,11 +1,37 @@
 body{
-    background-color: rgb(177, 134, 218);
+    margin: 0px;
+    padding: 0px;
+    background-image:linear-gradient(to right, rgb(118, 216, 88), rgb(44, 43, 114));
+    /*background-image: radial-gradient(circle at bottom right, rgb(52, 33, 141) 0%, rgb(52, 33, 141) 20%,rgb(52, 50, 168) 20%, rgb(52, 50, 168) 40%,rgb(52, 68, 195) 40%, rgb(52, 68, 195) 60%,rgb(52, 85, 221) 60%, rgb(52, 85, 221) 80%,rgb(52, 102, 248) 80%, rgb(52, 102, 248) 100%);*/
+    
 }
 header{
     display: block;
 }
 #profil{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    justify-content: space-around;
     text-align: center;
+    background-color: rgb(65, 111, 111);
+}
+#profil .bloc-bottom{
+    margin-top: 10px;
+}
+#profil
+.contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+#profil
+img{
+    width: 20px;
+    border-radius: 10px;
+}
+#profil a{
+    color: white;
 }
 img{
     width: 50px;
@@ -14,24 +40,40 @@ img{
 }
 .list
 ul{
-    background-color: aquamarine;
+    background-color: rgb(126, 188, 164);
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-content: space-between;
     justify-content: space-around;
     list-style-type: none;
+    text-align: center;
+}
+.list
+ul
+li{
+    text-align: center;
+    margin-top: 10px;
+}
+.list
+img{
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .sect{
     height: 200px;
-    background-color: bisque;
+    /*background-color: bisque;*/
     text-align: center;
 }
 .flottant{
     background-color: white;
     position: fixed;
+    border-radius: 8px;
     /*float: left;*/
 }
 .flottant img{

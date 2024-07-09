@@ -1,8 +1,8 @@
 const li = `
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">A Propos</a></li>`
+                <li><a href="#index.html"><img src="images/icons/home.png">Home</a></li>
+                <li><a href="#"><img src="images/icons/blog.png">Blog</a></li>
+                <li><a href="#"><img src="images/icons/contact.png">Contact</a></li>
+                <li><a href="#"><img src="images/icons/about.png">A Propos</a></li>`
 const ul = document.querySelector('ul')
 ul.innerHTML = li
 const logo = `<p class ="langue">Languages connus</p>
